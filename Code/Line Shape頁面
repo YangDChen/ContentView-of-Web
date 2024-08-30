@@ -1,0 +1,71 @@
+//
+//  LineShape.swift
+//  Resume of Web
+//
+//  Created by Yang Chen on 2022/11/7.
+//
+
+import SwiftUI
+
+struct LineShape: Shape {
+    
+    enum LineStyle { case bottomHalf, full, topHalf }
+    
+    var dotSize: CGFloat = 20
+    var lineWidth: CGFloat = 10
+    var style : LineStyle = .full
+    
+    var dotYPosition : CGFloat {
+        switch style {
+            case .bottomHalf:
+                return 0.2
+            case .full:
+                return 0.5
+            case .topHalf:
+                return 0.8
+        }
+    }
+    
+    
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        
+        
+        
+        //不要去減固定的值，我們先把圓和線定義成一個變數，設好Default後用變數值比較靈活
+        
+        path.addEllipse(in: CGRect(x: rect.midX - dotSize / 2,
+                                   y: rect.maxY * dotYPosition - dotSize / 2,
+                                   width: dotSize,
+                                   height: dotSize))
+        path.addRect(CGRect(x: rect.midX - (lineWidth / 2),
+                            y: style == .bottomHalf ? rect.maxY * 0.2 : rect.minY,
+                            
+                            //如果該圓角矩形是bottomHalf的話，就從Ｙ軸中間開始畫，不然就從Y軸中間開始畫（上下都有且佔滿整個螢幕區域）
+                            
+                            
+                            width: lineWidth,
+                            height: style == .full ? rect.height : rect.height * 0.8))
+        
+                            //高度視使用者裝置的內建高度做變數
+                            //如果該圓角矩形是full的話，就用完整的高度（上下都有），不然就砍半(只有上面，因為預設是從螢幕上端開始畫)
+        
+        
+        return path
+     }
+    
+    
+    
+    
+}
+
+struct LineShape_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack (spacing: 0) {
+            
+            LineShape(style: .bottomHalf).background(.blue)
+            LineShape().background(.yellow)
+            LineShape(style: .topHalf).background(.blue)
+        }
+    }
+}
