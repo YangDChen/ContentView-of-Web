@@ -1,0 +1,36 @@
+//
+//  Constant.swift
+//  ContentView of Web
+//
+//  Created by Yang Chen on 2022/11/7.
+//
+
+import Foundation
+
+typealias Experience = (title: String, company: String, start: String, end: String)
+
+struct Resume {
+    static let shared = Resume()
+    let name     = "線上一起遊臺灣"
+    let title    = "Educational"
+    let location = "位置：臺灣"
+    let bio      = "我們分享當代華語與旅遊的學習經驗，希望讓更多人加入學習華語的世界 😊"
+    let lectures   = ["臺北", "臺中", "臺南", "高雄", "宜蘭"]
+    let experiences: [Experience] = [("NTTU CLTSC - 線上一起遊臺灣",
+                                      "National Taitung University",
+                                      "2022 年 6 月",
+                                      "現在"),
+                                     ("NTTU CLTSC - Intern",
+                                      "National Taitung University",
+                                      "2022 年 2 月",
+                                      "2022 年 5 月"),
+                                     ("NTTU CLTSC - Student",
+                                      "National Taitung University",
+                                      "2021 年 12 月",
+                                      "2022 年 1 月")]
+    let phoneUrl = "tel://0912345678"
+    let socialMedia: [(name: String, url: String)] = [("Googlesite","https://sites.google.com/view/chinesea1/home"),
+                                                      ("GoogleClassroom","https://classroom.google.com/u/1/c/NDQ2Njg5NzY3MzEz"),
+                                                      ("YouTube","https://www.youtube.com/@learninwtour/playlists"),
+                                                      ("Line","https://line.me/R/ti/p/@920gusom")]
+}
