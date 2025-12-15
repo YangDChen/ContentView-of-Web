@@ -62,6 +62,8 @@
 
      (a) 其目的是使用在「主畫面」最下方Experience欄的左方圖形，用途為標示出此專題之經歷，用以提升使用者體驗。
 
+< **Note** > 詳細資訊請參見此頁面：https://github.com/YangDChen/ContentView-of-Web/tree/main/Code
+
 ---
 
 ## 4. 如何使用此App? (How it works?)
