@@ -2,11 +2,15 @@
 
 這是一個以**SwiftUI**開發的iOS整合學習App，其目的在於把分散在多個平台的華語教學資源（Google Sites / Google Classroom / YouTube Channel / 官方 LINE）整合成單一學習動線，降低使用者在學習時，因跨平台跳轉問題，而造成的學習成本。
 
+---
+
 若想瞭解詳細操作流程與理念，歡迎您瀏覽此影片：
 
 ## APP設計理念與使用導覽。/ Design concepts and usage guidance of our APP.
 
 影片連結：https://youtu.be/gvvv4g6evAg?si=fiuQ_nOHB_eQN6ri
+
+---
 
 ## 1. 為什麼需要這個App? (Why this App?)
 
