@@ -27,19 +27,19 @@
 
 (1) **Start Learning按鈕**：以彈出式視窗顯示延伸學習平台入口。
    
-  (a) **跨平台整合功能**：
-  
-    (i) Google Site（課程主要網站）
-    
-    (ii) Google Classroom（課程進度 / 作業繳交區）
-    
-    (iii) YouTube Channel（教學影片區）
-    
-    (iv) LINE 官方帳號
+     (a) **跨平台整合功能**：
+     
+       (i) Google Site（課程主要網站）
+       
+       (ii) Google Classroom（課程進度 / 作業繳交區）
+       
+       (iii) YouTube Channel（教學影片區）
+       
+       (iv) LINE 官方帳號
     
 (2) **指定課程icon連結**：
 
-  (a) 在主畫面中點選課程 icon（如：Ch1_臺北 / Ch2_臺中 / Ch3_臺南 / Ch4_高雄 / Ch5_宜蘭）可直接跳轉到Google Site之對應課程連結。
+     (a) 在主畫面中點選課程 icon（如：Ch1_臺北 / Ch2_臺中 / Ch3_臺南 / Ch4_高雄 / Ch5_宜蘭）可直接跳轉到Google Site之對應課程連結。
   
 
 ---
@@ -48,19 +48,19 @@
 
 (1) 主畫面
 
-  (a) App 主畫面：課程標題 / 簡介 / 課程入口 / 延伸學習、課程資訊按鈕。
+     (a) App 主畫面：課程標題 / 簡介 / 課程入口 / 延伸學習、課程資訊按鈕。
 
 (2) 基礎功能與定義頁面
 
-  (a) 定義基礎變數。 e.g. 課程清單、平台連結（Google Site / Google Classroom / YouTube / LINE）
+     (a) 定義基礎變數。 e.g. 課程清單、平台連結（Google Site / Google Classroom / YouTube / LINE）
     
 (3) 延伸學習頁面
 
-  (a) 設計延伸學習頁面之背景與圖片。 e.g. Google Site, Google Classroom, Youtube, Line，用以提升使用者體驗。
+     (a) 設計延伸學習頁面之背景與圖片。 e.g. Google Site, Google Classroom, Youtube, Line，用以提升使用者體驗。
     
 (4) Line Shape頁面
 
-  (a) 其目的是使用在「主畫面」最下方Experience欄的左方圖形，用途為標示出此專題之經歷，用以提升使用者體驗。
+     (a) 其目的是使用在「主畫面」最下方Experience欄的左方圖形，用途為標示出此專題之經歷，用以提升使用者體驗。
 
 ---
 
