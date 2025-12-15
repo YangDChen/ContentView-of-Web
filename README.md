@@ -8,12 +8,6 @@
 
 影片連結：https://youtu.be/gvvv4g6evAg?si=fiuQ_nOHB_eQN6ri
 
-若有任何問題，歡迎來信：ydc560@gmail.com
-
-會有這個作品的存在，我要感謝Jane from ChaoCode給了我非常多的學習資源與鼓勵：）
-
-Jane的Youtube Channel：https://youtube.com/@chaocode?si=g5MSzOKEuvIIlUAc
-
 ## 1. 為什麼需要這個App? (Why this App?)
 
 由於在既有的非同步線上教學設計中，使用者多以 PC/筆電開啟學習網站，但是，使用者常常會不斷在多個分頁/平台間切換，例如以我們的華語學習網站為例：
@@ -68,6 +62,12 @@ Jane的Youtube Channel：https://youtube.com/@chaocode?si=g5MSzOKEuvIIlUAc
 
 (1) 點選App icon後，進入主畫面
 (2) 點選 **Start Learning**按鈕，可點選icon後，自行選擇進入：主要教學網站 / 作業繳交網站 / 課程影片網站 / 官方Line App。
+
+---
+
+會有這個作品的存在，我要感謝Jane from ChaoCode給了我非常多的學習資源與鼓勵：）
+
+Jane的Youtube Channel：https://youtube.com/@chaocode?si=g5MSzOKEuvIIlUAc
 (3) 或者，您也可以在**Lectures**點選城市icon後，將會直接跳轉到指定課程連結。
 
 ---
