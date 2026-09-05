@@ -78,12 +78,3 @@
 (2) 點選 **Start Learning** 按鈕，可點選icon後，自行選擇進入：主要教學網站 / 作業繳交網站 / 課程影片網站 / 官方Line App。
 
 (3) 或者，您也可以在 **Lectures** 點選城市icon後，將會直接跳轉到指定課程連結。
-
----
-
-會有這個作品的存在，我要感謝Jane from ChaoCode給了我非常多的學習資源與鼓勵：）
-
-Jane的Youtube Channel：https://youtube.com/@chaocode?si=g5MSzOKEuvIIlUAc
-
----
-
