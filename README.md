@@ -4,8 +4,6 @@
 
 ---
 
-若想瞭解詳細操作流程與理念，歡迎您瀏覽此影片：
-
 ## APP設計理念與使用導覽。/ Design concepts and usage guidance of our APP.
 
 影片連結：https://youtu.be/gvvv4g6evAg?si=fiuQ_nOHB_eQN6ri
